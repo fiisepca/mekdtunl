@@ -1,8 +1,8 @@
 ﻿
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
-let proxyIP = '';
+let userID = '75b413f9-acb0-4e47-bd5f-35cda03d40a5';
+let proxyIP = 'nima.nscl.ir';
 let DNS64Server = '';
 //let sub = '';
 let subConverter = atob('U3ViQXBpLkNtbGlVc3NzUy5OZXQ=');
@@ -7175,4 +7175,5 @@ function config_Html(token = "test", proxyhost = "") {
 </html>`;
 
     return html;
+
 }
